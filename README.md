@@ -1,14 +1,16 @@
-# Advanced Text Processor
+# Advanced Text Processor (Built-in Only)
 
-An advanced Python library for cleaning, tokenizing, generating n-grams, and vectorizing text data for NLP tasks.
+This project is an experimental Python library for text processing:  
+- Cleaning  
+- Tokenization  
+- N-grams  
+- Vectorization  
+- Dataset handling  
 
-## Features
-- Text cleaning: remove special characters, punctuation, and stopwords.
-- Tokenization: convert text into a list of words.
-- N-grams: generate n-grams from tokenized text.
-- Vectorization: convert text into numerical feature representations.
+### Contribution Rules
+- 🚫 **No external libraries**: Only Python **built-in packages** are allowed.  
+- ✅ Goal: Practice, experiment, and push the limits of what can be done with standard Python.  
+- 💡 Contributions: Add new features, improve existing ones, or suggest design changes — as long as they follow the built-in-only rule.  
+- 🎯 Purpose: Learning and experimenting together, not user acquisition or monetization.  
 
-## Installation
-Install via pip:
-```bash
-pip install advanced-text-processor
+Contributions, issues, and discussions are welcome!
