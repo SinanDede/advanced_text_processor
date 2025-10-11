@@ -1,4 +1,6 @@
-import statistics, collections, datetime
+import statistics
+import collections
+import datetime
 
 def summarize_table(rows: list[dict]) -> dict:
     """Return quick statistical summary of list-of-dicts dataset."""
