@@ -1,4 +1,4 @@
-import statistics, math
+import statistics
 
 def detect_anomalies(values: list[float], z_thresh: float = 3.0) -> list[tuple[int, float]]:
     """Return indices and values where Z-score > threshold."""
