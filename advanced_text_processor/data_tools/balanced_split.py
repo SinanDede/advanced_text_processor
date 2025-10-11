@@ -1,4 +1,5 @@
-import random, collections
+import random
+import collections
 
 def balanced_split(rows: list[dict], label: str, test_ratio: float = 0.2, seed: int = 0):
     """Split dataset keeping class balance."""
@@ -8,7 +9,7 @@ def balanced_split(rows: list[dict], label: str, test_ratio: float = 0.2, seed: 
         by_class[r[label]].append(r)
 
     train, test = [], []
-    for c, items in by_class.items():
+    for items in by_class.values():
         k = int(len(items) * (1 - test_ratio))
         random.shuffle(items)
         train.extend(items[:k])
