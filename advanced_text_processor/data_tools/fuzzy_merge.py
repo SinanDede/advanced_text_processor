@@ -1,4 +1,5 @@
-import difflib, itertools
+import difflib
+import itertools
 
 def fuzzy_merge(a: list[dict], b: list[dict], on: str | None = None, threshold: float = 0.6) -> list[dict]:
     """Merge two list-of-dicts datasets on fuzzy key matches."""
