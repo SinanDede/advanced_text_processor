@@ -1,4 +1,8 @@
-import json, gzip, hashlib, datetime, os
+import json
+import gzip
+import hashlib
+import datetime
+import os
 
 def save_version(name: str, data: list[dict], folder: str = "versions") -> str:
     """Save dataset with timestamp, gzip and hash for integrity."""
